@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Aria2 Delete.sh by P3TERX, adapt Heroku-AriaNG by xinxin881613.
+# Aria2 Delete.sh by P3TERX, adapt Heroku-AriaNG by xinxin881613.56
+
 
 
 DOWNLOAD_PATH='downloads'
@@ -9,6 +10,7 @@ TOP_PATH=${DOWNLOAD_PATH}/${RELATIVE_PATH%%/*}
 INFO="[INFO]"
 
 echo -e "$(date +"%m/%d %H:%M:%S") ${INFO} Download error or stop, start deleting files..."
+
 
 if [ $2 -eq 0 ]; then
     exit 0
