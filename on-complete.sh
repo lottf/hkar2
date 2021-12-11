@@ -1,7 +1,10 @@
 #!/bin/bash
-# Aria2 Autoupload.sh by P3TERX, adapt Heroku-AriaNG by xinxin8816 and Kwok1am.
+
+# Aria2 Autoupload.sh by P3TERX, adapt Heroku-AriaNG by xinxin8816 and Kwok1am.23
 
 ## 文件过滤 File Filter ##
+
+
 
 # 限制最低上传大小，仅 BT 多文件下载时有效，用于过滤无用文件。低于此大小的文件将被删除，不会上传。
 # Limit the minimum upload size, which is only valid when downloading multiple BT files, and is used to filter useless files. Files below this size will be deleted and will not be uploaded.
@@ -16,6 +19,7 @@
 #EXCLUDE_FILE='html,url,lnk,txt,jpg,png'
 
 ## 高级设置 advanced settings ##
+
 
 # RCLONE 配置文件路径
 # RCLONE Configuration file path
