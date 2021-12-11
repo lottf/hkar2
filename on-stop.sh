@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Aria2 Delete.sh by P3TERX, adapt Heroku-AriaNG by xinxin8816.
+# Aria2 Delete.sh by P3TERX, adapt Heroku-AriaNG by xinxin881613.
+
 
 DOWNLOAD_PATH='downloads'
 FILE_PATH=$3
